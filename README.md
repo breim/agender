@@ -12,7 +12,7 @@ sudo docker run -it --rm -p 8080:8080 agender
 docker run -it --rm -p 8080:8080 agender /bin/sh
 
 #### Usage
-python server.py [<port>] default port is 8080
+python server.py default port is 8080
 
 Send a post in url http://localhost:8080/upload with file name **file** with a image file.
 
