@@ -1,17 +1,18 @@
+
 # General info
-##### List containers:
+**List containers:**
 sudo docker ps -a
 
-##### Build container
+**Build container**
 sudo docker build --no-cache . -t agender
 
-##### Run container
+**Run container**
 sudo docker run -it --rm -p 8080:8080 agender
 
-##### If you need login in bash
+**If you need login in bash**
 docker run -it --rm -p 8080:8080 agender /bin/sh
 
-#### Usage
+**Usage**
 python server.py default port is 8080
 
 Send a post in url http://localhost:8080/upload with file name **file** with a image file.
