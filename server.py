@@ -6,7 +6,6 @@ import logging
 import cgi
 import json
 import shutil
-import cgi
 import random
 import string
 import numpy
